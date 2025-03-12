@@ -6,7 +6,7 @@ void find_combinations(int score)
 
     printf("Possible combinations of scoring plays if a team’s score is %d:\n", score);
 
-    //This giant nested loop sequence essentially tests every possible combination while holding certain variables constant and checks to see if it equals the target score
+    //This giant nested loop sequence essentially tests every possible combination while holding certain variables constant and checks to see if it equals the target score.
     //If the target score is reached then only the combination is rpinted
     //This loops through possible counts of Touchdowns + 2-point conversion (8 points each)
     for (td_2pt = 0; td_2pt * 8 <= score; td_2pt++) {
